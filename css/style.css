@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+main{
+    padding: 2em;
+}
+
+.main__titulo{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.main__btnAgregar{
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #2088f1;
+    outline: none;
+    cursor: pointer;
+}
+
+.containerAddUser{
+    display: none;
+    border: 3px solid #ede6f1;
+    padding: 1em;
+    margin: auto;
+    width: 90%;
+}
+
+.containerAddUser__titulo{
+    margin-top: .5em;
+}
+
+.formAddUser{
+    border-radius: 1em;
+    width: 90%;
+}
+
+.form-addField{
+    margin-bottom: 1em;
+}
+
+.btnForm{
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #9c19f1;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 1px solid #9c19f1;
+}
+
+.btnForm:hover{
+    background-color: #ac37f8;
+    box-shadow: 1px 1px 3px #ac37f8;
+}
+
+.containerAddUser__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.btnCerrarForm{
+    padding: .7em;
+    background-color: #dedae1;
+    cursor: pointer;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.btnCerrarForm:hover{
+    background-color: #f00b00;
+    color: white;
+}
+
+.label-form{
+    display: block;
+}
+
+.input-form{
+    padding: .5em;
+    outline: none;
+    border-radius: 1em;
+    width: 90%;
+    margin-top: .5em;
+    border: 2px solid #ecebed;
+}
+
+.input-form:focus{
+    border: 2px solid #4ca3fa;
+}
+
+.select-form{
+    margin-top: .5em;
+    padding: .5em;
+    width: 13em;
+    background-color: #eceaee;
+    border: 2px solid #e2e1e4;
+    border-radius: 1em;
+}

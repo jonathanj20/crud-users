@@ -1,0 +1,12 @@
+.tabla, .tabla__col{
+    border: 3px solid #000;
+    border-collapse: collapse;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.inputInvisible{
+    display: none;
+}

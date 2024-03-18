@@ -2,7 +2,7 @@
     include("conexiondb.php");
     if(isset($_POST['btnEliminar'])){
         $idUser = $_POST['id'];
-        $resultado = mysqli_query($conexion, "DELETE FROM userTable WHERE  id=$idUser");
+        $resultado = mysqli_query($conexion, "DELETE FROM userTable WHERE id=$idUser");
 
         if($resultado){
             echo 'usuario eliminado correctamente';
